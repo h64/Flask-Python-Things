@@ -41,14 +41,27 @@ nav a:hover {
 }
 
 .container {
-    margin: 0 15px;
+    margin: 0 15px 25px 15px;
     padding: 0 15px;
     background-color: #eee;
+    padding-bottom: 15px;
 }
 
 .banner {
     width: 100%;
     min-height: 200px;
+}
+
+.btn {
+    color:mediumspringgreen;
+    background-color: black;
+    padding: 2px 25px;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    color: black;
+    background-color: mediumspringgreen;
 }
 
 .form-input {
