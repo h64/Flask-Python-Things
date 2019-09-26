@@ -1,0 +1,63 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: mediumspringgreen;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px
+}
+
+nav a {
+    text-decoration: none;
+    color: mediumspringgreen;
+    font-size: 24px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.logo {
+    max-height: 20px;
+    width: auto;
+    float: left;
+}
+
+.container {
+    margin: 0 15px;
+    padding: 0 15px;
+    background-color: #eee;
+}
+
+.banner {
+    width: 100%;
+    min-height: 200px;
+}
+
+.form-input {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+form label {
+    float: left;
+}
